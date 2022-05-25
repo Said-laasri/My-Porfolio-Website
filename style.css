@@ -6,6 +6,7 @@ body {
   position: relative;
   width: 375px;
   height: 6968px;
+  margin: auto;
 }
 
 #nav-bar {
@@ -28,8 +29,9 @@ body {
   top: calc(50% - 44px / 2);
 }
 
-#logo h4 {
+#logo .name {
   width: 90px;
+  text-decoration:solid;
   height: 18px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -100,7 +102,7 @@ body {
   border: 2px solid #acb7c3;
 }
 
-#header {
+.header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -111,9 +113,12 @@ body {
   height: 590px;
   top: 50px;
   background: #1c1a19;
+  background-image: url(img/backroud.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right; 
 }
 
-#header h1 {
+.header h1 {
   width: 327px;
   height: 80px;
   font-family: "Crete Round", sans-serif;
@@ -125,7 +130,7 @@ body {
   color: #ff6b00;
 }
 
-#header h3 {
+.header h2 {
   width: 327px;
   height: 20px;
   font-family: "Roboto", sans-serif;
@@ -142,7 +147,7 @@ body {
   flex-grow: 0;
 }
 
-#header p {
+.header p {
   width: 327px;
   height: 123px;
   font-family: "Poppins", sans-serif;
@@ -178,5 +183,4 @@ body {
   height: 20px;
   flex-grow: 0;
   margin-left: 63%;
-  background-image: url(img/backroud.svg) 100px 100px no-repeat;
 }
