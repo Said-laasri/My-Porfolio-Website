@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 body {
   position: relative;
@@ -19,7 +20,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px 12px;
+  padding: 1px 12px;
   position: absolute;
   width: 101px;
   height: 44px;
@@ -30,7 +31,7 @@ body {
 #logo h4 {
   width: 90px;
   height: 18px;
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -108,14 +109,14 @@ body {
   position: absolute;
   width: 375px;
   height: 590px;
-  top: 50px; 
+  top: 50px;
   background: #1c1a19;
 }
 
 #header h1 {
   width: 327px;
   height: 80px;
-  font-family: "Crete Round",sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 50px;
@@ -127,7 +128,7 @@ body {
 #header h3 {
   width: 327px;
   height: 20px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -144,7 +145,7 @@ body {
 #header p {
   width: 327px;
   height: 123px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
