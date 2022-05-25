@@ -31,7 +31,7 @@ body {
 
 #logo .name {
   width: 90px;
-  text-decoration:solid;
+  text-decoration: solid;
   height: 18px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -115,7 +115,7 @@ body {
   background: #1c1a19;
   background-image: url(img/backroud.svg);
   background-repeat: no-repeat;
-  background-position: bottom right; 
+  background-position: bottom right;
 }
 
 .header h1 {
