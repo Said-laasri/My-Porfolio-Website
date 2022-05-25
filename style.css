@@ -1,21 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap");
+
 body {
   position: relative;
   width: 375px;
   height: 6968px;
 }
+
 #nav-bar {
   position: absolute;
-  left: 0px;
-  right: 0px;
-  top: 0px;
   padding-left: 30px;
-  bottom: 0px;
   background: #3c3a39;
   width: 375px;
   height: 60px;
 }
+
 #logo {
   display: flex;
   flex-direction: row;
@@ -27,10 +26,11 @@ body {
   left: 12px;
   top: calc(50% - 44px / 2);
 }
+
 #logo h4 {
   width: 90px;
   height: 18px;
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -38,12 +38,12 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
-  top: 0px;
 }
+
 #side-bar {
   display: flex;
   flex-direction: row;
@@ -53,9 +53,9 @@ body {
   width: 40px;
   height: 28px;
   right: 24px;
-  top: 0px;
   border-radius: 8px;
 }
+
 #side-bar2 {
   width: 24px;
   height: 24px;
@@ -63,6 +63,7 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
 #side-bar3 {
   width: 24px;
   height: 24px;
@@ -70,6 +71,7 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
 #victor1 {
   position: absolute;
   left: 16.67%;
@@ -78,6 +80,7 @@ body {
   bottom: 29.17%;
   border: 2px solid #acb7c3;
 }
+
 #victor2 {
   position: absolute;
   left: 16.67%;
@@ -86,6 +89,7 @@ body {
   bottom: 50%;
   border: 2px solid #acb7c3;
 }
+
 #victor3 {
   position: absolute;
   left: 16.67%;
@@ -94,6 +98,7 @@ body {
   bottom: 70.83%;
   border: 2px solid #acb7c3;
 }
+
 #header {
   display: flex;
   flex-direction: column;
@@ -103,15 +108,14 @@ body {
   position: absolute;
   width: 375px;
   height: 590px;
-  left: 0px;
-  top: 50px;
+  top: 50px; 
   background: #1c1a19;
 }
 
 #header h1 {
   width: 327px;
   height: 80px;
-  font-family: "Crete Round";
+  font-family: "Crete Round",sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 50px;
@@ -119,6 +123,7 @@ body {
   letter-spacing: 0.37px;
   color: #ff6b00;
 }
+
 #header h3 {
   width: 327px;
   height: 20px;
@@ -135,6 +140,7 @@ body {
   order: 1;
   flex-grow: 0;
 }
+
 #header p {
   width: 327px;
   height: 123px;
@@ -143,16 +149,16 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   flex: none;
   order: 2;
   flex-grow: 0;
 }
+
 .social {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
   justify-content: space-between;
   width: 200px;
   height: 20px;
@@ -161,6 +167,7 @@ body {
   order: 3;
   flex-grow: 0;
 }
+
 #background {
   display: block;
   align-items: flex-start;
@@ -170,4 +177,5 @@ body {
   height: 20px;
   flex-grow: 0;
   margin-left: 63%;
+  background-image: url(img/backroud.svg) 100px 100px no-repeat;
 }
