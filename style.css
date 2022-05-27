@@ -255,6 +255,7 @@ body {
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
+  margin-bottom: inherit;
 }
 
 .linfo h2 {
@@ -959,7 +960,7 @@ body {
   background: #1c1a19 url(img/Abot\ background.svg);
   margin-left: -20px;
   background-repeat: no-repeat;
-  background-position: top 500px right -80px;
+  background-position: top 440px right -80px;
   background-size: 280px 280px;
   background-attachment: local;
   box-shadow: 0.01px 0.1rem #ece9e9;
@@ -999,7 +1000,7 @@ body {
   color: #fff;
   text-decoration: none;
   border: none;
-  margin-top: -440px;
+  margin-top: -600px;
 }
 
 .about .abouut:hover {
@@ -1025,8 +1026,8 @@ body {
 
 .langue .title0 {
   display: grid;
-  width: 160px;
-  height: 24px;
+  width: 240px;
+  height: 50px;
   font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -1038,12 +1039,17 @@ body {
   flex-grow: 0;
   margin-left: 80px;
   margin-top: -540px;
+  background: url(img/1r.svg);
+  background-repeat: no-repeat;
+  background-position: left -2px center;
+  background-size: 30px 30px;
+  background-attachment: local;
 }
 
 .langue .title1 {
   display: grid;
-  width: 160px;
-  height: 24px;
+  width: 270px;
+  height: 40px;
   font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -1054,6 +1060,11 @@ body {
   order: 1;
   flex-grow: 0;
   margin-left: 90px;
+  background: url(img/2r.svg);
+  background-repeat: no-repeat;
+  background-position: left -3px center;
+  background-size: 25px 25px;
+  background-attachment: local;
 }
 
 .langue ul li {
@@ -1076,8 +1087,8 @@ body {
 
 .langue .title2 {
   display: grid;
-  width: 160px;
-  height: 24px;
+  width: 220px;
+  height: 40px;
   font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -1088,4 +1099,9 @@ body {
   order: 2;
   flex-grow: 0;
   margin-left: 100px;
+  background: url(img/3r.svg);
+  background-repeat: no-repeat;
+  background-position: left -1px center;
+  background-size: 30px 30px;
+  background-attachment: local;
 }
