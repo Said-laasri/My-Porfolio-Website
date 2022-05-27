@@ -61,7 +61,7 @@ _use you preferd browser to run the file .html to get project website.
 👤 **Said laasri**
 
 - GitHub: [@Said-laasri](https://github.com/Said-laasri)
-- Twitter: [@saidlaasr]((https://twitter.com/saidlaasr)
+- Twitter: [@saidlaasr](https://twitter.com/saidlaasr)
 - LinkedIn: [SAID LAASRI](https://www.linkedin.com/in/said-laasri-8a4367172/)
 
 
