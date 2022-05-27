@@ -228,7 +228,6 @@ body {
   background-position: top 5px left 5px;
   background-size: 300px 350px;
   background-attachment: local;
-
 }
 
 .project0 .info-project {
@@ -963,7 +962,7 @@ body {
   background-position: top 500px right -80px;
   background-size: 280px 280px;
   background-attachment: local;
-  box-shadow: 0.01px 0.1rem #ece9e9;  
+  box-shadow: 0.01px 0.1rem #ece9e9;
 }
 
 .about .par {
