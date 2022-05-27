@@ -194,7 +194,7 @@ body {
 .title2 {
   width: 327px;
   height: 100px;
-  left: 30px;
+  left: 50px;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -211,10 +211,10 @@ body {
 }
 
 .project0 {
-  display: grid;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 1px 24px;
+  padding: 1px 8px;
   gap: 24px;
   width: 375px;
   height: 568px;
@@ -225,9 +225,10 @@ body {
   flex-grow: 0;
   background: url(img/project0.svg);
   background-repeat: no-repeat;
-  background-position: top 40px left 25px;
-  background-size: 280px 280px;
+  background-position: top 5px left 5px;
+  background-size: 300px 350px;
   background-attachment: local;
+
 }
 
 .project0 .info-project {
@@ -313,7 +314,7 @@ body {
   flex-grow: 0;
 }
 
-.project0 .info-project h2 {
+.project0 .info-project h3 {
   width: 327px;
   height: 36px;
   font-family: "Crete Round", sans-serif;
@@ -474,42 +475,37 @@ body {
   flex-grow: 0;
 }
 
-.project0 .check {
-  display: flex;
-  flex-direction: row;
+.project0 .click {
+  display: block;
   align-items: center;
   padding: 12px;
-  gap: 10px;
+  position: absolute;
+  top: 540px;
+  font-weight: 700;
+  font-size: medium;
   width: 124px;
   height: 48px;
   flex: none;
-  order: 3;
-  margin-top: -20px;
   flex-grow: 0;
   text-decoration: none;
-}
-
-.project0 .check .click {
   background: #ff6b00;
-  text-decoration: none;
-  width: 124px;
-  height: 48px;
   color: #fff;
+  border: none;
 }
 
-.check .click:hover {
+.click:hover {
   color: #ff6b00;
   background-color: #fff;
 }
 
-.check .click:active {
+.click:active {
   color: #fff;
   background-color: #ff6b00;
 }
 
 /* ******1********* */
 .project1 {
-  display: grid;
+  display: flex;
   position: absolute;
   width: 305px;
   height: 180px;
@@ -621,7 +617,7 @@ body {
 
 /* ******* q******* */
 .projectq {
-  display: grid;
+  display: flex;
   position: absolute;
   width: 305px;
   height: 180px;
@@ -733,7 +729,7 @@ body {
 
 /* *******w***** */
 .projectw {
-  display: grid;
+  display: flex;
   position: absolute;
   width: 305px;
   height: 180px;
@@ -845,7 +841,7 @@ body {
 
 /* *******e******* */
 .projectX {
-  display: grid;
+  display: flex;
   position: absolute;
   width: 305px;
   height: 180px;
@@ -900,7 +896,6 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-  width: 45px;
   height: 20px;
   background: rgba(255, 255, 255, 0.24);
   flex: none;
@@ -962,8 +957,13 @@ body {
   width: 100%;
   height: 2200px;
   top: 2900px;
-  background: #1c1a19;
+  background: #1c1a19 url(img/Abot\ background.svg);
   margin-left: -20px;
+  background-repeat: no-repeat;
+  background-position: top 500px right -80px;
+  background-size: 280px 280px;
+  background-attachment: local;
+  box-shadow: 0.01px 0.1rem #ece9e9;  
 }
 
 .about .par {
@@ -978,6 +978,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-top: -380px;
 }
 
 .about .abouut {
@@ -998,6 +999,8 @@ body {
   text-align: center;
   color: #fff;
   text-decoration: none;
+  border: none;
+  margin-top: -440px;
 }
 
 .about .abouut:hover {
@@ -1008,18 +1011,6 @@ body {
 .about .abouut:active {
   color: #fff;
   background-color: #ff6b00;
-}
-
-.about .vic {
-  width: 330px;
-  margin-left: 65px;
-  height: 200px;
-  background: url(img/Abot\ background.svg);
-  background-repeat: no-repeat;
-  background-position: bottom right -100px;
-  background-size: 280px 280px;
-  background-attachment: local;
-  box-shadow: 0.01px 0.1rem #ece9e9;
 }
 
 .about .langue {
@@ -1046,7 +1037,8 @@ body {
   color: #fff;
   order: 0;
   flex-grow: 0;
-  left: 80px;
+  margin-left: 80px;
+  margin-top: -540px;
 }
 
 .langue .title1 {
@@ -1062,11 +1054,7 @@ body {
   color: #fff;
   order: 1;
   flex-grow: 0;
-  left: 120px;
-}
-
-ul {
-  list-style: none;
+  margin-left: 90px;
 }
 
 .langue ul li {
@@ -1078,6 +1066,7 @@ ul {
   font-size: 18px;
   line-height: 43px;
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   color: #fcf8f6;
@@ -1099,5 +1088,5 @@ ul {
   color: #fff;
   order: 2;
   flex-grow: 0;
-  left: -10px;
+  margin-left: 100px;
 }
