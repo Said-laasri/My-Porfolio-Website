@@ -1,19 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap");
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
-
 body {
   position: relative;
   width: 375px;
   height: 6968px;
   top: -8px;
   left: -8px;
+  margin: auto;
 }
 
 #nav-bar {
   position: absolute;
   padding-left: 40px;
+  padding-left: 30px;
   background: #3c3a39;
   width: 375px;
   height: 60px;
@@ -69,6 +71,22 @@ body {
   background-color: #3c3a39;
 }
 
+#side-bar2 {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#side-bar3 {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 #victor1 {
   position: absolute;
   left: 16.67%;
@@ -105,6 +123,11 @@ body {
   position: absolute;
   width: 375px;
   height: 400px;
+  padding: 120px 15px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 590px;
   top: 50px;
   background: #1c1a19;
   background-image: url(img/backroud.svg);
@@ -165,6 +188,7 @@ body {
   top: 600px;
   margin-left: 16px;
 }
+
 .social {
   display: flex;
   flex-direction: row;
