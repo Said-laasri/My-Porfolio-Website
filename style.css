@@ -242,6 +242,33 @@ body {
   flex-grow: 0;
 }
 
+.about h2 {
+  text-align: center;
+  width: 327px;
+  height: 79px;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+.linfo h2 {
+  width: 295px;
+  height: 81px;
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 .project0 .info-project h2 {
   width: 327px;
   height: 36px;
@@ -255,6 +282,34 @@ body {
   color: #091e42;
   flex: none;
   order: 0;
+  flex-grow: 0;
+}
+
+.linfoe p {
+  width: 295px;
+  height: 87px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.linfo p {
+  width: 295px;
+  height: 87px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  order: 1;
   flex-grow: 0;
 }
 
@@ -379,6 +434,7 @@ body {
   color: #fff;
   background-color: #ff6b00;
 }
+
 /* ******1********* */
 .project1 {
   display: grid;
@@ -386,10 +442,10 @@ body {
   width: 305px;
   height: 180px;
   background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  ),
     url(img/projectsbackground.svg);
   top: 900px;
 }
@@ -406,34 +462,6 @@ body {
   left: calc(50% - 327px / 2);
   bottom: 62px;
   top: 10px;
-}
-
-.linfo h2 {
-  width: 295px;
-  height: 81px;
-  font-family: "Crete Round", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.linfo p {
-  width: 295px;
-  height: 87px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .linfo .lang {
@@ -455,7 +483,7 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-  width: 45x;
+  width: 45px;
   height: 20px;
   background: rgba(255, 255, 255, 0.24);
   flex: none;
@@ -529,10 +557,10 @@ body {
   width: 305px;
   height: 180px;
   background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  ),
     url(img/projectsbackground.svg);
   top: 1400px;
 }
@@ -573,7 +601,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -583,7 +611,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 236px;
   height: 40px;
@@ -666,6 +694,7 @@ body {
   color: #fff;
   background-color: #fff;
 }
+
 /* *******w***** */
 .projectw {
   display: grid;
@@ -673,10 +702,10 @@ body {
   width: 305px;
   height: 180px;
   background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  ),
     url(img/projectsbackground.svg);
   top: 1900px;
 }
@@ -717,7 +746,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -805,10 +834,12 @@ body {
   color: #ff6b00;
   background-color: #fff;
 }
+
 .projectw .butw:active {
   color: #fff;
   background-color: #ff6b00;
 }
+
 /* *******e******* */
 .projectX {
   display: grid;
@@ -816,10 +847,10 @@ body {
   width: 305px;
   height: 180px;
   background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  ),
     url(img/projectsbackground.svg);
   top: 2400px;
 }
@@ -852,25 +883,11 @@ body {
   flex-grow: 0;
 }
 
-.linfoe p {
-  width: 295px;
-  height: 87px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
 .linfoe .leng {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   width: 236px;
   height: 40px;
@@ -885,7 +902,7 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-  width: 45x;
+  width: 45px;
   height: 20px;
   background: rgba(255, 255, 255, 0.24);
   flex: none;
@@ -899,7 +916,7 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 10px 12px;
-  width: 45x;
+  width: 45px;
   height: 20px;
   background: rgba(255, 255, 255, 0.24);
   flex: none;
@@ -948,10 +965,12 @@ body {
   color: #ff6b00;
   background-color: #fff;
 }
+
 .projectX .bute:active {
   color: #fff;
   background-color: #ff6b00;
 }
+
 /* *******about***** */
 .work .about {
   display: grid;
@@ -961,19 +980,6 @@ body {
   top: 2900px;
   background: #1c1a19;
   margin-left: -20px;
-}
-
-.about h2 {
-  text-align: center;
-  width: 327px;
-  height: 79px;
-  font-family: "Crete Round", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 72px;
-  line-height: 88px;
-  letter-spacing: 0.37px;
-  color: #ff6b00;
 }
 
 .about .par {
@@ -1045,7 +1051,7 @@ body {
 
 .langue .title0 {
   display: grid;
-  width: 100px;
+  width: 160px;
   height: 24px;
   font-family: "InaiMathi", sans-serif;
   font-style: normal;
@@ -1056,12 +1062,12 @@ body {
   color: #fff;
   order: 0;
   flex-grow: 0;
-  left: 50px;
+  left: 80px;
 }
 
 .langue .title1 {
   display: grid;
-  width: 100px;
+  width: 160px;
   height: 24px;
   font-family: "InaiMathi", sans-serif;
   font-style: normal;
@@ -1072,7 +1078,7 @@ body {
   color: #fff;
   order: 1;
   flex-grow: 0;
-  left: 30px;
+  left: 120px;
 }
 
 ul {
@@ -1091,14 +1097,14 @@ ul {
   align-items: center;
   text-align: center;
   color: #fcf8f6;
-  left: 20px;
+  left: 30px;
   list-style: none;
   margin: 12px auto;
 }
 
 .langue .title2 {
   display: grid;
-  width: 100px;
+  width: 160px;
   height: 24px;
   font-family: "InaiMathi", sans-serif;
   font-style: normal;
@@ -1109,6 +1115,5 @@ ul {
   color: #fff;
   order: 2;
   flex-grow: 0;
-  left: 30px;
+  left: -10px;
 }
- 
