@@ -1147,12 +1147,15 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 200px;
-  height: 20px;
-  margin-left: 10px;
+  height: 30px;
   flex: none;
   order: 3;
   flex-grow: 0;
   list-style: none;
+  background-image: url(img/Shape.svg);
+  background-repeat: no-repeat;
+  background-position: center top 25px;
+  background-attachment: initial;
 }
 
 .footer ul li {
