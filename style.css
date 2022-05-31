@@ -6,7 +6,6 @@
 body {
   position: relative;
   width: 375px;
-  height: 6968px;
   top: -8px;
   left: -8px;
 }
@@ -974,10 +973,8 @@ body {
 /* *******about***** */
 .work .about {
   display: grid;
-  position: absolute;
   width: 100%;
   height: 2200px;
-  top: 2900px;
   background: #1c1a19 url(img/Abot\ background.svg);
   margin-left: -20px;
   background-repeat: no-repeat;
@@ -1132,7 +1129,6 @@ body {
   display: flex;
   grid-template-columns: 1fr;
   grid-auto-flow: minmax(150px, auto);
-  padding: 120px 20px;
   position: inherit;
   width: 375px;
   height: auto;
@@ -1152,10 +1148,6 @@ body {
   order: 3;
   flex-grow: 0;
   list-style: none;
-  background-image: url(img/Shape.svg);
-  background-repeat: no-repeat;
-  background-position: center top 25px;
-  background-attachment: initial;
 }
 
 .footer ul li {
@@ -1166,7 +1158,6 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-flow: minmax(150px, auto);
-  padding: 120px 20px;
   position: inherit;
   width: 375px;
   height: auto;
