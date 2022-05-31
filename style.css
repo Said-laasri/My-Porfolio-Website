@@ -509,7 +509,12 @@ body {
   position: absolute;
   width: 305px;
   height: 180px;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(img/projectsbackground.svg);
+  background: linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(img/projectsbackground.svg);
   top: 900px;
 }
 
@@ -621,7 +626,12 @@ body {
   position: absolute;
   width: 305px;
   height: 180px;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(img/projectsbackground.svg);
+  background: linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(img/projectsbackground.svg);
   top: 1400px;
 }
 
@@ -733,7 +743,12 @@ body {
   position: absolute;
   width: 305px;
   height: 180px;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(img/projectsbackground.svg);
+  background: linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(img/projectsbackground.svg);
   top: 1900px;
 }
 
@@ -845,7 +860,12 @@ body {
   position: absolute;
   width: 305px;
   height: 180px;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(img/projectsbackground.svg);
+  background: linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(img/projectsbackground.svg);
   top: 2400px;
 }
 
