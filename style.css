@@ -1156,7 +1156,7 @@ body {
 
 .forte::placeholder {
   padding: 12px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -1176,7 +1176,7 @@ body {
 }
 
 .text-area::placeholder {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -1197,7 +1197,7 @@ body {
   order: 3;
   flex-grow: 0;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
