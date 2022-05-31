@@ -503,7 +503,8 @@ body {
   position: absolute;
   width: 305px;
   height: 180px;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
     180.45deg,
     rgba(38, 38, 38, 0) 0.75%,
     rgba(38, 38, 38, 0.9) 61.94%
@@ -619,7 +620,8 @@ body {
   position: absolute;
   width: 305px;
   height: 180px;
-  background: linear-gradient(
+  background:
+    linear-gradient(
     180.45deg,
     rgba(38, 38, 38, 0) 0.75%,
     rgba(38, 38, 38, 0.9) 61.94%
@@ -735,7 +737,8 @@ body {
   position: absolute;
   width: 305px;
   height: 180px;
-  background: linear-gradient(
+  background:
+    linear-gradient(
     180.45deg,
     rgba(38, 38, 38, 0) 0.75%,
     rgba(38, 38, 38, 0.9) 61.94%
@@ -851,7 +854,8 @@ body {
   position: absolute;
   width: 305px;
   height: 180px;
-  background: linear-gradient(
+  background:
+    linear-gradient(
     180.45deg,
     rgba(38, 38, 38, 0) 0.75%,
     rgba(38, 38, 38, 0.9) 61.94%
