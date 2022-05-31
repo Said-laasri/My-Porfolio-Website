@@ -975,6 +975,7 @@ body {
   display: grid;
   width: 100%;
   height: 2200px;
+  top: 2080px;
   background: #1c1a19 url(img/Abot\ background.svg);
   margin-left: -20px;
   background-repeat: no-repeat;
@@ -1161,7 +1162,7 @@ body {
   position: inherit;
   width: 375px;
   height: auto;
-  top: 4500px;
+  top: 2700px;
   background-color: #fff;
 }
 
