@@ -504,10 +504,10 @@ body {
   width: 305px;
   height: 180px;
   background-image: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  ),
     url(img/projectsbackground.svg);
   top: 900px;
   margin-left: 7%;
@@ -620,10 +620,10 @@ body {
   width: 305px;
   height: 180px;
   background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  ),
     url(img/projectsbackground.svg);
   top: 1400px;
   margin-left: 7%;
@@ -736,10 +736,10 @@ body {
   width: 305px;
   height: 180px;
   background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  ),
     url(img/projectsbackground.svg);
   top: 1900px;
   margin-left: 7%;
@@ -852,10 +852,10 @@ body {
   width: 305px;
   height: 180px;
   background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
+    180.45deg,
+    rgba(38, 38, 38, 0) 0.75%,
+    rgba(38, 38, 38, 0.9) 61.94%
+  ),
     url(img/projectsbackground.svg);
   top: 2400px;
   margin-left: 7%;
@@ -1172,6 +1172,7 @@ body {
   color: #fff;
   margin-left: 30%;
 }
+
 .submit-btn:hover {
   background-color: #fff5e1;
   color: #f55800;
