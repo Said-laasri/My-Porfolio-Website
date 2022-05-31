@@ -6,13 +6,12 @@
 body {
   position: relative;
   width: 375px;
+  margin: 0;
   top: -8px;
-  left: -8px;
 }
 
 #nav-bar {
-  position: absolute;
-  padding-left: 40px;
+  position: fixed;
   background: #3c3a39;
   width: 375px;
   height: 60px;
@@ -57,6 +56,7 @@ body {
   width: 40px;
   height: 28px;
   right: 24px;
+  top: 6px;
   border-radius: 8px;
 }
 
@@ -99,11 +99,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 120px 20px;
-  gap: 12px;
   position: absolute;
   width: 375px;
-  height: 400px;
+  height: 650px;
   top: 50px;
   background: #1c1a19;
   background-image: url(img/backroud.svg);
@@ -113,57 +111,47 @@ body {
 
 .header h1 {
   width: 327px;
-  height: 80px;
   font-family: "Crete Round", sans-serif;
-  font-style: normal;
   font-weight: 200;
   font-size: 50px;
   line-height: 64px;
   letter-spacing: 0.37px;
   color: #ff6b00;
+  margin-left: 10px;
 }
 
 .header h2 {
   width: 327px;
-  height: 20px;
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 32px;
   display: flex;
-  align-items: center;
   text-align: center;
   color: #fff5e1;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  margin-left: 15px;
 }
 
 .header p {
   width: 327px;
-  height: 123px;
   font-family: "Poppins", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
+  margin-left: 15px;
 }
 
 .work {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-flow: minmax(150px, auto);
-  padding: 120px 20px;
+  padding: 120px 8px;
   position: inherit;
   width: 375px;
   height: auto;
-  top: 600px;
-  margin-left: 16px;
+  top: 580px;
+  margin: 0;
 }
 
 .social {
@@ -180,21 +168,9 @@ body {
   list-style: none;
 }
 
-#background {
-  display: block;
-  align-items: flex-start;
-  padding: 10px;
-  justify-content: flex-start;
-  width: 20px;
-  height: 20px;
-  flex-grow: 0;
-  margin-left: 63%;
-}
-
 .title2 {
   width: 327px;
-  height: 100px;
-  left: 50px;
+margin-left: 5%;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -215,13 +191,12 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 1px 8px;
-  gap: 24px;
   width: 375px;
   height: 568px;
   flex: none;
   order: 0;
-  top: 20px;
-  margin-top: -60px;
+  top: -15px;
+  margin-left: 5%;
   flex-grow: 0;
   background: url(img/project0.svg);
   background-repeat: no-repeat;
@@ -246,7 +221,7 @@ body {
 
 .about h2 {
   text-align: center;
-  width: 327px;
+  width: 375px;
   height: 79px;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -255,7 +230,6 @@ body {
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
-  margin-bottom: inherit;
 }
 
 .linfo h2 {
@@ -383,7 +357,31 @@ body {
   color: #fff;
   flex: none;
   order: 1;
-  flex-grow: 0;
+}
+
+.form p {
+  width: 327px;
+  margin-left: 16px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.about .par {
+  width: 330px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+  flex: none;
+  margin-top: -380px;
+  margin-left: 10%;
 }
 
 .project0 .info-project p {
@@ -397,7 +395,6 @@ body {
   color: #091e42;
   flex: none;
   order: 1;
-  flex-grow: 0;
   margin-top: -10px;
 }
 
@@ -411,7 +408,6 @@ body {
   height: 40px;
   flex: none;
   order: 2;
-  flex-grow: 0;
   margin-top: -80px;
 }
 
@@ -426,8 +422,6 @@ body {
   background: #fff;
   border: 1px solid #8993a4;
   flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .project0 .tags .html {
@@ -509,13 +503,9 @@ body {
   position: absolute;
   width: 305px;
   height: 180px;
-  background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(img/projectsbackground.svg);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(img/projectsbackground.svg);
   top: 900px;
+  margin-left: 7%;
 }
 
 .linfo {
@@ -590,7 +580,7 @@ body {
 
 .project1 .but {
   position: absolute;
-  width: 345px;
+  width: 322px;
   height: 40px;
   bottom: 1px;
   background: #ff6b00;
@@ -605,9 +595,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-left: -20px;
-  margin-right: 30px;
-  padding-right: 10px;
+  margin-left: -9px;
 }
 
 .project1 .but:hover {
@@ -626,13 +614,9 @@ body {
   position: absolute;
   width: 305px;
   height: 180px;
-  background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(img/projectsbackground.svg);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(img/projectsbackground.svg);
   top: 1400px;
+  margin-left: 7%;
 }
 
 .linfoq {
@@ -707,7 +691,7 @@ body {
 
 .projectq .butq {
   position: absolute;
-  width: 345px;
+  width: 322px;
   height: 40px;
   bottom: 1px;
   background: #ff6b00;
@@ -722,9 +706,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-left: -20px;
-  margin-right: 30px;
-  padding-right: 10px;
+  margin-left: -9px;
 }
 
 .projectq .butq:hover {
@@ -743,13 +725,9 @@ body {
   position: absolute;
   width: 305px;
   height: 180px;
-  background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(img/projectsbackground.svg);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(img/projectsbackground.svg);
   top: 1900px;
+  margin-left: 7%;
 }
 
 .linfow {
@@ -824,7 +802,7 @@ body {
 
 .projectw .butw {
   position: absolute;
-  width: 345px;
+  width: 322px;
   height: 40px;
   bottom: 1px;
   background: #ff6b00;
@@ -839,9 +817,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-left: -20px;
-  margin-right: 30px;
-  padding-right: 10px;
+  margin-left: -9px;
 }
 
 .projectw .butw:hover {
@@ -860,13 +836,9 @@ body {
   position: absolute;
   width: 305px;
   height: 180px;
-  background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(img/projectsbackground.svg);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(img/projectsbackground.svg);
   top: 2400px;
+  margin-left: 7%;
 }
 
 .linfoe {
@@ -940,7 +912,7 @@ body {
 
 .projectX .bute {
   position: absolute;
-  width: 345px;
+  width: 322px;
   height: 40px;
   bottom: 1px;
   background: #ff6b00;
@@ -955,9 +927,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-left: -20px;
-  margin-right: 30px;
-  padding-right: 10px;
+  margin-left: -9px;
 }
 
 .projectX .bute:hover {
@@ -973,39 +943,21 @@ body {
 /* *******about***** */
 .work .about {
   display: grid;
-  width: 100%;
+  width: 375px;
   height: 2200px;
   top: 2080px;
-  background: #1c1a19 url(img/Abot\ background.svg);
-  margin-left: -20px;
+  background: #1c1a19 url(img/Frame.svg);
+  margin-left: -24px;
   background-repeat: no-repeat;
   background-position: top 440px right -80px;
   background-size: 280px 280px;
   background-attachment: local;
-  box-shadow: 0.01px 0.1rem #ece9e9;
-}
-
-.about .par {
-  width: 327px;
-  height: 148px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #f4f5f7;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin-top: -380px;
 }
 
 .about .abouut {
   display: grid;
   flex-direction: row;
   align-items: center;
-  padding: 12px;
-  gap: 10px;
   width: 161px;
   height: 48px;
   background: #ff6b00;
@@ -1020,6 +972,7 @@ body {
   text-decoration: none;
   border: none;
   margin-top: -600px;
+  margin-left: 15%;
 }
 
 .about .abouut:hover {
@@ -1037,7 +990,6 @@ body {
   grid-template: auto;
   grid-area: auto;
   width: 300px;
-  height: 10pxpx;
   order: 1;
   left: 10px;
   margin-bottom: 20px;
@@ -1046,7 +998,6 @@ body {
 .langue .title0 {
   display: grid;
   width: 240px;
-  height: 50px;
   font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -1054,8 +1005,6 @@ body {
   line-height: 44px;
   justify-content: center;
   color: #fff;
-  order: 0;
-  flex-grow: 0;
   margin-left: 80px;
   margin-top: -540px;
   background: url(img/1r.svg);
@@ -1068,7 +1017,6 @@ body {
 .langue .title1 {
   display: grid;
   width: 270px;
-  height: 40px;
   font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -1076,8 +1024,6 @@ body {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-  order: 1;
-  flex-grow: 0;
   margin-left: 90px;
   background: url(img/2r.svg);
   background-repeat: no-repeat;
@@ -1088,7 +1034,6 @@ body {
 
 .langue ul li {
   width: 114px;
-  height: auto;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1096,8 +1041,6 @@ body {
   line-height: 43px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
   color: #fcf8f6;
   left: 30px;
   list-style: none;
@@ -1107,7 +1050,6 @@ body {
 .langue .title2 {
   display: grid;
   width: 220px;
-  height: 40px;
   font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -1129,11 +1071,9 @@ body {
 .footer {
   display: flex;
   grid-template-columns: 1fr;
-  grid-auto-flow: minmax(150px, auto);
   position: inherit;
-  width: 375px;
-  height: auto;
-  top: 4540px;
+  width: 350px;
+  top: 2200px;
   justify-content: center;
   align-items: center;
 }
@@ -1146,9 +1086,8 @@ body {
   width: 200px;
   height: 30px;
   flex: none;
-  order: 3;
-  flex-grow: 0;
   list-style: none;
+  margin-left: -10px;
 }
 
 .footer ul li {
@@ -1162,55 +1101,28 @@ body {
   position: inherit;
   width: 375px;
   height: auto;
-  top: 2700px;
+  top: 2100px;
   background-color: #fff;
-}
-
-.form p {
-  width: 327px;
-  height: 216px;
-  margin-left: 16px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  text-align: center;
-  color: #172b4d;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .form form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  gap: 24px;
-  width: 327px;
-  height: 330px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  width: 310px;
+  margin-left: -20px;
 }
 
 .forte {
-  width: 327px;
+  width: 300px;
   height: 48px;
   flex: none;
-  order: 0;
-  flex-grow: 0;
   margin-top: 5px;
   border: hidden;
 }
 
 .form textarea {
-  width: 327px;
+  width: 300px;
   height: 114px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
   margin-top: 10px;
   border-style: hidden;
 }
@@ -1231,7 +1143,7 @@ body {
   order: 3;
   flex-grow: 0;
   top: 100px;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
