@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
   position: relative;
@@ -361,14 +361,17 @@ body {
 
 .form p {
   width: 327px;
-  margin-left: 16px;
-  font-family: "Inter", sans-serif;
+  height: 216px;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   text-align: center;
   color: #172b4d;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 80px;
 }
 
 .about .par {
@@ -1096,10 +1099,11 @@ body {
   display: flex;
   grid-template-columns: 1fr;
   position: inherit;
-  width: 350px;
+  width: 375px;
   top: 2200px;
   justify-content: center;
   align-items: center;
+  border-top: 2px solid #dfe1e6;
 }
 
 .footer ul {
@@ -1119,36 +1123,64 @@ body {
 }
 
 .form {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-auto-flow: minmax(150px, auto);
+  display: flex;
+  flex-direction: column;
   position: inherit;
   width: 375px;
   height: auto;
   top: 2100px;
   background-color: #fff;
+  gap: 15px;
+  padding: 2px;
 }
 
 .form form {
   display: flex;
   flex-direction: column;
-  width: 310px;
-  margin-left: -20px;
+  width: 327px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-left: 5px;
 }
 
 .forte {
-  width: 300px;
+  width: 327px;
   height: 48px;
   flex: none;
   margin-top: 5px;
-  border: hidden;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+.forte::placeholder {
+  padding: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #979493;
 }
 
 .form textarea {
-  width: 300px;
+  width: 327px;
   height: 114px;
-  margin-top: 10px;
+  margin-top: 20px;
   border-style: hidden;
+  background-color: #fbf8f7;
+  padding: 12px;
+}
+
+.text-area::placeholder {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #3c3a39;
 }
 
 #form1 ul {
@@ -1158,15 +1190,14 @@ body {
 .form button {
   display: flex;
   flex-direction: row;
-  padding: 12px;
-  gap: 10px;
   width: 131px;
   height: 48px;
   background: #ff6b00;
   flex: none;
   order: 3;
   flex-grow: 0;
-  top: 100px;
+  justify-content: center;
+  align-items:center;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -1174,7 +1205,7 @@ body {
   line-height: 24px;
   border: none;
   color: #fff;
-  margin-left: 30%;
+  margin-left: 15%;
 }
 
 .submit-btn:hover {
