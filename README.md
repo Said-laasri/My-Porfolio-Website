@@ -21,11 +21,10 @@ The pull request is opened to get a review on the project and check for any requ
 
 ## Getting Started
 
-**This web page is printing Hello Microverse in big bold letters.**
-
+**This web page is My portfolio site with my socials and my projects.**
+**My portfolio project  works on mobile and disktop using @Media queries .**
 ****************************************************
 To get a local copy up and running follow these simple example steps.
-
 
 
 
