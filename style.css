@@ -923,7 +923,7 @@ body {
   }
 
   /* *******work section****** */
- .work {
+  .work {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1171,7 +1171,7 @@ body {
     display: none;
   }
 
-  #project3 .but {  
+  #project3 .but {
     display: none;
   }
 
