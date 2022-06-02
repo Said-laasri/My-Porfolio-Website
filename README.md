@@ -25,7 +25,7 @@ The pull request is opened to get a review on the project and check for any requ
 **My portfolio project  works on mobile and disktop using @Media queries .**
 ****************************************************
 To get a local copy up and running follow these simple example steps.
-
+follow>>>>>>>>>
 
 
 ### Setup

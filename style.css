@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 body {
   margin: 0;
@@ -263,7 +263,7 @@ body {
 .form p {
   width: 327px;
   height: 216px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -291,7 +291,7 @@ body {
 .linfo p {
   width: 295px;
   height: 87px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -577,7 +577,7 @@ body {
   padding: 10px;
   background: url(img/lines.png);
   background-repeat: no-repeat;
-  background-position: top  center;
+  background-position: top center;
   background-size: 300px 2px;
   background-attachment: local;
 }
@@ -722,7 +722,7 @@ body {
 
 .forte::placeholder {
   padding: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -742,7 +742,7 @@ body {
 }
 
 .text-area::placeholder {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -836,7 +836,7 @@ body {
     gap: 10px;
     width: 87px;
     height: 40px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
@@ -998,7 +998,7 @@ body {
   .project0 .info-project h3 {
     width: 448px;
     height: 48px;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -1011,7 +1011,7 @@ body {
   .form p {
     width: 455px;
     height: 256px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1026,7 +1026,7 @@ body {
   .project0 .info-project p {
     width: 448px;
     height: 140px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1090,7 +1090,7 @@ body {
   .linfo .low {
     width: 337px;
     height: 38px;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -1277,7 +1277,7 @@ body {
     width: 566px;
     height: 148px;
     color: #f4f5f7;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
@@ -1326,7 +1326,7 @@ body {
     margin-left: 5%;
     background: url(img/lines.png);
     background-repeat: no-repeat;
-    background-position: top  center;
+    background-position: top center;
     background-size: 1200px 2px;
     background-attachment: local;
     margin-top: 100px;
@@ -1470,7 +1470,7 @@ body {
 
   .forte::placeholder {
     padding: 12px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -1490,7 +1490,7 @@ body {
   }
 
   .text-area::placeholder {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -1520,5 +1520,11 @@ body {
     border: none;
     color: #fff;
     margin-left: -520px;
+  }
+
+  .project:hover {
+    transform: scale(1.15);
+    transform-origin: 1%;
+    transition-duration: 1s;
   }
 }
