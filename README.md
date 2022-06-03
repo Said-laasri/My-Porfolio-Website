@@ -67,7 +67,8 @@ _use you preferd browser to run the file .html to get project website.
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
+thanks:
+[@Ibizugbe](https://github.com/Ibizugbe) for his contirbution to the project.
 
 ## Show your support
 
