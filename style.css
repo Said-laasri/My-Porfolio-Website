@@ -580,6 +580,7 @@ body {
   background-position: top center;
   background-size: 300px 2px;
   background-attachment: local;
+  margin-top: 290px;
 }
 
 .about .langue .Eng {
@@ -590,7 +591,6 @@ body {
   gap: 24px;
   width: 329px;
   height: auto;
-  margin-top: 200px;
 }
 
 .langue .title0 {
@@ -1341,6 +1341,7 @@ body {
     margin-left: 20px;
     width: 100%;
     height: auto;
+    margin-top: 100px;
   }
 
   #langue #title01 {
