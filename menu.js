@@ -11,4 +11,5 @@ closemenu.addEventListener('click',function(){
     menubar.classList.remove("nemubar");
     menu.style.visibility="visible";
     closemenu.style.visibility="hidden";
-})
+}
+)
