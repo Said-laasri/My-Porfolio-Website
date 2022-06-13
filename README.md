@@ -69,7 +69,12 @@ CHECK THIS LINK [portfolio-website](https://said-laasri.github.io/My-Porfolio-We
 
 Contributions, issues, and feature requests are welcome!
 thanks:
+
 [@Ibizugbe](https://github.com/Ibizugbe) for his contirbution to the project.
+
+[@digia3d](https://github.com/digia3d) for her contirbution to the project.
+
+[@Thusharsingh](https://github.com/PinkMoon25) for his contirbution to the project.
 
 ## Show your support
 
