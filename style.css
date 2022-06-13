@@ -202,7 +202,6 @@ body {
 .work {
   display: grid;
   grid-template-columns: 1fr;
-  grid-auto-flow: minmax(150px, auto);
   padding: 120px 8px;
   width: 375px;
   height: auto;
@@ -622,7 +621,6 @@ body {
 .about .langue {
   display: grid;
   height: auto;
-  grid-template: auto;
   grid-area: auto;
   width: 100%;
   order: 1;
@@ -1376,7 +1374,6 @@ body {
   .about .langue {
     display: grid;
     height: auto;
-    grid-template: auto;
     grid-area: auto;
     width: 100%;
     order: 1;
