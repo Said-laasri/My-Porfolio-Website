@@ -51,11 +51,11 @@ const allProjects = [
   </ul>`,
     img: '<img src="img/project0.svg" alt="project0" >',
     description: '<p> A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. </p>',
-    Link: '<button type="button" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
-    projectRepo: '<button type="button" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+    Link: '<button type="button" id="click3" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
+    projectRepo: '<button type="button" id="click2" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
   },
   {
-    name: '<h2>Profesional Art Printing Data</h2>',
+    name: '<h3>Website Protfolio</h3>',
     close: `<span class="material-symbols-outlined">
     close
     </span>`,
@@ -64,13 +64,13 @@ const allProjects = [
     <li class="bo">bootstrap</li>
     <li class="ru">Ruby</li>
   </ul>`,
-    img: '<img src="Desktopimg/project1.svg" alt="project">',
+    img: '<img src="img/Popupmobile.svg" alt="project">',
     description: '<p>A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard</p>',
-    Link: '<button type="button" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
-    projectRepo: '<button type="button" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+    Link: '<button type="button" id="click3" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
+    projectRepo: '<button type="button" id="click2" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
   },
   {
-    name: '<h2>Profesional Art Printing Data</h2>',
+    name: '<h3>Website Protfolio</h3>',
     close: `<span class="material-symbols-outlined">
     close
     </span>`,
@@ -79,13 +79,13 @@ const allProjects = [
     <li class="bo">bootstrap</li>
     <li class="ru">Ruby</li>
   </ul>`,
-    img: '<img src="Desktopimg/project2.svg" alt="project">',
+    img: '<img src="img/Popupmobile.svg" alt="project">',
     description: '<p>A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard</p>',
-    Link: '<button type="button" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
-    projectRepo: '<button type="button" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+    Link: '<button type="button" id="click3" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
+    projectRepo: '<button type="button" id="click2" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
   },
   {
-    name: '<h2>Profesional Art Printing Data</h2>',
+    name: '<h3>Website Protfolio</h3>',
     close: `<span class="material-symbols-outlined">
     close
     </span>`,
@@ -94,13 +94,13 @@ const allProjects = [
     <li class="bo">bootstrap</li>
     <li class="ru">Ruby</li>
   </ul>`,
-    img: '<img src="Desktopimg/project1.svg" alt="project">',
+    img: '<img src="img/Popupmobile.svg" alt="project">',
     description: '<p>A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard</p>',
-    Link: '<button type="button" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
-    projectRepo: '<button type="button" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+    Link: '<button type="button" id="click3" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
+    projectRepo: '<button type="button" id="click2" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
   },
   {
-    name: '<h2>Profesional Art Printing Data</h2>',
+    name: '<h3>Website Protfolio</h3>',
     close: `<span class="material-symbols-outlined">
     close
     </span>`,
@@ -109,28 +109,13 @@ const allProjects = [
     <li class="bo">bootstrap</li>
     <li class="ru">Ruby</li>
   </ul>`,
-    img: `'<img src="Desktopimg/project1.svg" alt="project">',
-    description: '<p>A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard</p>`,
-    Link: '<button type="button" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
-    projectRepo: '<button type="button" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
-  },
-  {
-    name: '<h2>Profesional Art Printing Data</h2>',
-    close: `<span class="material-symbols-outlined">
-    close
-    </span>`,
-    technologies: `<ul class="lang">
-    <li class="ht">html</li>
-    <li class="bo">bootstrap</li>
-    <li class="ru">Ruby</li>
-  </ul>`,
-    img: '<img src="Desktopimg/project1.svg" alt="project">',
+    img: '<img src="img/Popupmobile.svg" alt="project">',
     description: '<p>A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard</p>',
-    Link: '<button type="button" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
-    projectRepo: '<button type="button" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+    Link: '<button type="button" id="click3" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
+    projectRepo: '<button type="button" id="click2" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
   },
   {
-    name: '<h2>Profesional Art Printing Data</h2>',
+    name: '<h3>Website Protfolio</h3>',
     close: `<span class="material-symbols-outlined">
     close
     </span>`,
@@ -139,10 +124,25 @@ const allProjects = [
     <li class="bo">bootstrap</li>
     <li class="ru">Ruby</li>
   </ul>`,
-    img: '<img src="Desktopimg/project1.svg" alt="project">',
+    img: '<img src="img/Popupmobile.svg" alt="project">',
     description: '<p>A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard</p>',
-    Link: '<button type="button" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
-    projectRepo: '<button type="button" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+    Link: '<button type="button" id="click3" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
+    projectRepo: '<button type="button" id="click2" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+  },
+  {
+    name: '<h3>Website Protfolio</h3>',
+    close: `<span class="material-symbols-outlined">
+    close
+    </span>`,
+    technologies: `<ul class="lang">
+    <li class="ht">html</li>
+    <li class="bo">bootstrap</li>
+    <li class="ru">Ruby</li>
+  </ul>`,
+    img: '<img src="img/Popupmobile.svg" alt="project">',
+    description: '<p>A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard</p>',
+    Link: '<button type="button" id="click3" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
+    projectRepo: '<button type="button" id="click2" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
   },
 ];
 
