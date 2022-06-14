@@ -582,6 +582,7 @@ body {
   background-size: 280px 280px;
   background-attachment: local;
   padding-bottom: 30px;
+  margin-left: -8px;
 }
 
 .about .abouut {
@@ -1147,6 +1148,8 @@ body {
     padding: 8px 16px;
     gap: 12px;
     width: 300px;
+    height: 80%;
+    margin-bottom: -50%;
   }
 
   .linfo .low {
@@ -1170,7 +1173,6 @@ body {
     height: 40px;
     order: 2;
     flex-grow: 0;
-    margin-top: -10px;
   }
 
   .linfo .lang .ht {
@@ -1212,7 +1214,7 @@ body {
     color: #fff;
   }
 
-  #project1 .but {
+  .project .but {
     width: 362px;
     height: 58px;
     background: #f55800;
@@ -1230,32 +1232,12 @@ body {
     cursor: pointer;
   }
 
-  #project2 .but {
-    display: none;
-  }
-
-  #project3 .but {
-    display: none;
-  }
-
-  #project4 .but {
-    display: none;
-  }
-
-  #project5 .but {
-    display: none;
-  }
-
-  #project6 .but {
-    display: none;
-  }
-
-  #project1 .but:hover {
+  .project .but:hover {
     color: #ff6b00;
     background-color: #fff;
   }
 
-  #project1 .but:active {
+  .project .but:active {
     color: #fff;
     background-color: #ff6b00;
   }
@@ -1267,10 +1249,6 @@ body {
     filter: drop-shadow(0.1px 48px 48px rgba(37, 47, 137, 0.08));
     background-image: url(Desktopimg/project1.svg);
     background-repeat: no-repeat;
-  }
-
-  #linfo1 {
-    display: none;
   }
 
   #project2 {
