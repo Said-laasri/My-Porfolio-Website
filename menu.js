@@ -37,73 +37,116 @@ contactsection.addEventListener('click', () => {
 
 // *************************project(((((((((((((())))))))))))))
 
-// const Allprojects = [
-//   {
-//     img: 'img/project0.svg',
-//     name: 'Multi-Post Stories',
-//     description:'A daily selection of privately personalized reads;
-// no accounts or sign-ups required. has been the industrys standard dummy text
-//  ever since the 1500s,
-//  when an unknown printer took a standard dummy text.',
-//     technologies: ['css','Html', 'boot', 'Ruby'],
-//     Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
-//   },
-//   {
-//     name: 'Profesional Art Printing Data',
-//     technologies: ['Html', 'booststrap', 'Ruby'],
-//     img: 'Desktopimg/project1.svg',
-//     description:'A daily selection of privately personalized reads;
-// no accounts or sign-ups required. has been the industrys standard ',
-//     Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
-//     projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
-//   },
-//   {
-//     name: 'Data Dashboard Healthcare',
-//     technologies: ['Html', 'booststrap', 'Ruby'],
-//     img: 'Desktopimg/project2.svg',
-//     description:'A daily selection of privately personalized reads;
-// no accounts or sign-ups required. has been the industrys standard ',
-//     Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
-//     projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
-//   },
-//   {
-//     name: 'Website Protfolio',
-//     technologies: ['Html', 'booststrap', 'Ruby'],
-//     img: 'Desktopimg/project3.svg',
-//     description:'A daily selection of privately personalized reads;
-// no accounts or sign-ups required. has been the industrys standard ',
-//     Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
-//     projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
-//   },
-//   {
-//     name: 'Profesional Art Printing Data',
-//     technologies: ['Html', 'booststrap', 'Ruby'],
-//     img: 'Desktopimg/project456.svg',
-//     description:'A daily selection of privately personalized reads;
-// no accounts or sign-ups required. has been the industrys standard ',
-//     Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
-//     projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
-//   },
-//   {
-//     name: 'Dashboard Healthcare',
-//     technologies: ['Html', 'booststrap', 'Ruby'],
-//     img: 'Desktopimg/project2.svg',
-//     description:'A daily selection of privately personalized reads;
-//  no accounts or sign-ups required. has been the industrys standard ',
-//     Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
-//     projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
-//   },
-//   {
-//     name: 'Website Protfolio',
-//     technologies: ['Html', 'booststrap', 'Ruby'],
-//     img: 'Desktopimg/project3.svg       ',
-//     description:'A daily selection of privately personalized reads:
-// no accounts or sign-ups required. has been the industrys standard ',
-//     Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
-//     projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
-//   }
-// ]
+const allProjects = [
+  {
+    name: '<h3>Multi-Post Stories</h3>',
+    close: `<span class="material-symbols-outlined">
+    close
+    </span>`,
+    technologies: `<ul class="tags">
+    <li class="css">css</li>
+    <li class="html">html</li>
+    <li class="boot">bootstrap</li>
+    <li class="ruby">Ruby</li>
+  </ul>`,
+    img: '<img src="img/project0.svg" alt="project0" >',
+    description: '<p> A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. </p>',
+    Link: '<button type="button" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
+    projectRepo: '<button type="button" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+  },
+  {
+    name: '<h2>Profesional Art Printing Data</h2>',
+    close: `<span class="material-symbols-outlined">
+    close
+    </span>`,
+    technologies: `<ul class="lang">
+    <li class="ht">html</li>
+    <li class="bo">bootstrap</li>
+    <li class="ru">Ruby</li>
+  </ul>`,
+    img: '<img src="Desktopimg/project1.svg" alt="project">',
+    description: '<p>A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard</p>',
+    Link: '<button type="button" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
+    projectRepo: '<button type="button" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+  },
+  {
+    name: '<h2>Profesional Art Printing Data</h2>',
+    close: `<span class="material-symbols-outlined">
+    close
+    </span>`,
+    technologies: `<ul class="lang">
+    <li class="ht">html</li>
+    <li class="bo">bootstrap</li>
+    <li class="ru">Ruby</li>
+  </ul>`,
+    img: '<img src="Desktopimg/project2.svg" alt="project">',
+    description: '<p>A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard</p>',
+    Link: '<button type="button" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
+    projectRepo: '<button type="button" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+  },
+  {
+    name: '<h2>Profesional Art Printing Data</h2>',
+    close: `<span class="material-symbols-outlined">
+    close
+    </span>`,
+    technologies: `<ul class="lang">
+    <li class="ht">html</li>
+    <li class="bo">bootstrap</li>
+    <li class="ru">Ruby</li>
+  </ul>`,
+    img: '<img src="Desktopimg/project1.svg" alt="project">',
+    description: '<p>A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard</p>',
+    Link: '<button type="button" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
+    projectRepo: '<button type="button" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+  },
+  {
+    name: '<h2>Profesional Art Printing Data</h2>',
+    close: `<span class="material-symbols-outlined">
+    close
+    </span>`,
+    technologies: `<ul class="lang">
+    <li class="ht">html</li>
+    <li class="bo">bootstrap</li>
+    <li class="ru">Ruby</li>
+  </ul>`,
+    img: `'<img src="Desktopimg/project1.svg" alt="project">',
+    description: '<p>A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard</p>`,
+    Link: '<button type="button" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
+    projectRepo: '<button type="button" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+  },
+  {
+    name: '<h2>Profesional Art Printing Data</h2>',
+    close: `<span class="material-symbols-outlined">
+    close
+    </span>`,
+    technologies: `<ul class="lang">
+    <li class="ht">html</li>
+    <li class="bo">bootstrap</li>
+    <li class="ru">Ruby</li>
+  </ul>`,
+    img: '<img src="Desktopimg/project1.svg" alt="project">',
+    description: '<p>A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard</p>',
+    Link: '<button type="button" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
+    projectRepo: '<button type="button" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+  },
+  {
+    name: '<h2>Profesional Art Printing Data</h2>',
+    close: `<span class="material-symbols-outlined">
+    close
+    </span>`,
+    technologies: `<ul class="lang">
+    <li class="ht">html</li>
+    <li class="bo">bootstrap</li>
+    <li class="ru">Ruby</li>
+  </ul>`,
+    img: '<img src="Desktopimg/project1.svg" alt="project">',
+    description: '<p>A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard</p>',
+    Link: '<button type="button" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
+    projectRepo: '<button type="button" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+  },
+];
 
+// (***********************************)
 const work = document.querySelector('.work');
 const project0 = document.createElement('article');
 project0.classList.add('work', 'project0');
@@ -160,6 +203,107 @@ function addCards() {
   }
 }
 addCards();
-// Allprojects.forEach((element,i) => {
-//   const projectcontainer = document.querySelector('.')
-// });
+// ****************************************************************
+const body = document.querySelector('body');
+const popupContainer = document.createElement('div');
+const pupupSecondContainer = document.createElement('div');
+function popup(i) {
+  if (i === 0) {
+    for (let item in allProjects[0]) {
+      pupupSecondContainer.innerHTML += allProjects[0][item];
+    }
+  } else if (i === 1) {
+    for (let item in allProjects[1]) {
+      pupupSecondContainer.innerHTML += allProjects[1][item];
+    }
+  } else if (i === 2) {
+    for (let item in allProjects[2]) {
+      pupupSecondContainer.innerHTML += allProjects[2][item];
+    }
+  } else if (i === 3) {
+    for (let item in allProjects[3]) {
+      pupupSecondContainer.innerHTML += allProjects[3][item];
+    }
+  } else if (i === 4) {
+    for (let item in allProjects[4]) {
+      pupupSecondContainer.innerHTML += allProjects[4][item];
+    }
+  } else if (i === 5) {
+    for (let item in allProjects[5]) {
+      pupupSecondContainer.innerHTML += allProjects[5][item];
+    }
+  } else if (i === 6) {
+    for (let item in allProjects[6]) {
+      pupupSecondContainer.innerHTML += allProjects[6][item];
+    }
+  }
+  popupContainer.classList.add('popupcontainer');
+  pupupSecondContainer.classList.add('popupSeconContainer');
+  popupContainer.appendChild(pupupSecondContainer);
+  body.appendChild(popupContainer);
+}
+
+const articleBtn = document.querySelector('.project0 .click');
+const buttonOne = document.querySelector('#project1 .but');
+const buttonTwo = document.querySelector('#project2 .but');
+const buttonThree = document.querySelector('#project3 .but');
+const buttonFour = document.querySelector('#project4 .but');
+const buttonFive = document.querySelector('#project5 .but');
+const buttonSix = document.querySelector('#project6 .but');
+
+articleBtn.addEventListener('click', () => {
+  popup(0);
+  popupContainer.style.display = 'block';
+  const closePopup = document.querySelector('.material-symbols-outlined');
+  closePopup.addEventListener('click', () => {
+    popupContainer.style.display = 'none';
+  });
+});
+buttonOne.addEventListener('click', () => {
+  popup(0);
+  popupContainer.style.display = 'block';
+  const closePopup = document.querySelector('.material-symbols-outlined');
+  closePopup.addEventListener('click', () => {
+    popupContainer.style.display = 'none';
+  });
+});
+buttonTwo.addEventListener('click', () => {
+  popup(0);
+  popupContainer.style.display = 'block';
+  const closePopup = document.querySelector('.material-symbols-outlined');
+  closePopup.addEventListener('click', () => {
+    popupContainer.style.display = 'none';
+  });
+});
+buttonThree.addEventListener('click', () => {
+  popup(0);
+  popupContainer.style.display = 'block';
+  const closePopup = document.querySelector('.material-symbols-outlined');
+  closePopup.addEventListener('click', () => {
+    popupContainer.style.display = 'none';
+  });
+});
+buttonFour.addEventListener('click', () => {
+  popup(0);
+  popupContainer.style.display = 'block';
+  const closePopup = document.querySelector('.material-symbols-outlined');
+  closePopup.addEventListener('click', () => {
+    popupContainer.style.display = 'none';
+  });
+});
+buttonFive.addEventListener('click', () => {
+  popup(0);
+  popupContainer.style.display = 'block';
+  const closePopup = document.querySelector('.material-symbols-outlined');
+  closePopup.addEventListener('click', () => {
+    popupContainer.style.display = 'none';
+  });
+});
+buttonSix.addEventListener('click', () => {
+  popup(0);
+  popupContainer.style.display = 'block';
+  const closePopup = document.querySelector('.material-symbols-outlined');
+  closePopup.addEventListener('click', () => {
+    popupContainer.style.display = 'none';
+  });
+});

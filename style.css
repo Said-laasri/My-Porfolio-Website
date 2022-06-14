@@ -582,7 +582,6 @@ body {
   background-size: 280px 280px;
   background-attachment: local;
   padding-bottom: 30px;
-  margin-left: -8px;
 }
 
 .about .abouut {
@@ -840,7 +839,26 @@ body {
   background-color: #e05304;
   color: #fff;
 }
+/* ********************************* */
+.popupcontainer {
+  display: none;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-color: rgba(151, 148, 147, 0.8)
+  } 
 
+  .popupSeconContainer{
+    margin: 112px 142px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+  }
 /* **********dESKTOP VERSION********* */
 @media (min-width: 768px) {
   body {
