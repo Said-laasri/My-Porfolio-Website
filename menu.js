@@ -211,25 +211,33 @@ const pupupSecondContainer = document.createElement('div');
 function popup(i) {
   pupupSecondContainer.innerHTML = '';
   if (i === 0) {
-    Object.values(allProjects[0]).forEach(item => pupupSecondContainer.innerHTML += item); 
-  } 
-  else if (i === 1) {
-    Object.values(allProjects[1]).forEach(item => pupupSecondContainer.innerHTML += item);
-  } 
-  else if (i === 2) {
-    Object.values(allProjects[2]).forEach(item => pupupSecondContainer.innerHTML += item);
-  } 
-  else if (i === 3) {
-    Object.values(allProjects[3]).forEach(item => pupupSecondContainer.innerHTML += item);
-  } 
-  else if (i === 4) {
-    Object.values(allProjects[4]).forEach(item => pupupSecondContainer.innerHTML += item);
-  } 
-  else if (i === 5) {
-    Object.values(allProjects[5]).forEach(item => pupupSecondContainer.innerHTML += item);
-  } 
-  else if (i === 6) {
-    Object.values(allProjects[6]).forEach(item => pupupSecondContainer.innerHTML += item);
+    Object.values(allProjects[0]).forEach((item) => {
+      pupupSecondContainer.innerHTML += item;
+    });
+  } else if (i === 1) {
+    Object.values(allProjects[1]).forEach((item) => {
+      pupupSecondContainer.innerHTML += item;
+    });
+  } else if (i === 2) {
+    Object.values(allProjects[2]).forEach((item) => {
+      pupupSecondContainer.innerHTML += item;
+    });
+  } else if (i === 3) {
+    Object.values(allProjects[3]).forEach((item) => {
+      pupupSecondContainer.innerHTML += item;
+    });
+  } else if (i === 4) {
+    Object.values(allProjects[4]).forEach((item) => {
+      pupupSecondContainer.innerHTML += item;
+    });
+  } else if (i === 5) {
+    Object.values(allProjects[5]).forEach((item) => {
+      pupupSecondContainer.innerHTML += item;
+    });
+  } else if (i === 6) {
+    Object.values(allProjects[6]).forEach((item) => {
+      pupupSecondContainer.innerHTML += item;
+    });
   }
   popupContainer.classList.add('popupcontainer');
   pupupSecondContainer.classList.add('popupSeconContainer');
