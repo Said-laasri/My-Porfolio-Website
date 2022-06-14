@@ -207,35 +207,29 @@ addCards();
 const body = document.querySelector('body');
 const popupContainer = document.createElement('div');
 const pupupSecondContainer = document.createElement('div');
+
 function popup(i) {
+  pupupSecondContainer.innerHTML = '';
   if (i === 0) {
-    for (let item in allProjects[0]) {
-      pupupSecondContainer.innerHTML += allProjects[0][item];
-    }
-  } else if (i === 1) {
-    for (let item in allProjects[1]) {
-      pupupSecondContainer.innerHTML += allProjects[1][item];
-    }
-  } else if (i === 2) {
-    for (let item in allProjects[2]) {
-      pupupSecondContainer.innerHTML += allProjects[2][item];
-    }
-  } else if (i === 3) {
-    for (let item in allProjects[3]) {
-      pupupSecondContainer.innerHTML += allProjects[3][item];
-    }
-  } else if (i === 4) {
-    for (let item in allProjects[4]) {
-      pupupSecondContainer.innerHTML += allProjects[4][item];
-    }
-  } else if (i === 5) {
-    for (let item in allProjects[5]) {
-      pupupSecondContainer.innerHTML += allProjects[5][item];
-    }
-  } else if (i === 6) {
-    for (let item in allProjects[6]) {
-      pupupSecondContainer.innerHTML += allProjects[6][item];
-    }
+    Object.values(allProjects[0]).forEach(item => pupupSecondContainer.innerHTML += item); 
+  } 
+  else if (i === 1) {
+    Object.values(allProjects[1]).forEach(item => pupupSecondContainer.innerHTML += item);
+  } 
+  else if (i === 2) {
+    Object.values(allProjects[2]).forEach(item => pupupSecondContainer.innerHTML += item);
+  } 
+  else if (i === 3) {
+    Object.values(allProjects[3]).forEach(item => pupupSecondContainer.innerHTML += item);
+  } 
+  else if (i === 4) {
+    Object.values(allProjects[4]).forEach(item => pupupSecondContainer.innerHTML += item);
+  } 
+  else if (i === 5) {
+    Object.values(allProjects[5]).forEach(item => pupupSecondContainer.innerHTML += item);
+  } 
+  else if (i === 6) {
+    Object.values(allProjects[6]).forEach(item => pupupSecondContainer.innerHTML += item);
   }
   popupContainer.classList.add('popupcontainer');
   pupupSecondContainer.classList.add('popupSeconContainer');
@@ -260,7 +254,7 @@ articleBtn.addEventListener('click', () => {
   });
 });
 buttonOne.addEventListener('click', () => {
-  popup(0);
+  popup(1);
   popupContainer.style.display = 'block';
   const closePopup = document.querySelector('.material-symbols-outlined');
   closePopup.addEventListener('click', () => {
@@ -268,7 +262,7 @@ buttonOne.addEventListener('click', () => {
   });
 });
 buttonTwo.addEventListener('click', () => {
-  popup(0);
+  popup(2);
   popupContainer.style.display = 'block';
   const closePopup = document.querySelector('.material-symbols-outlined');
   closePopup.addEventListener('click', () => {
@@ -276,7 +270,7 @@ buttonTwo.addEventListener('click', () => {
   });
 });
 buttonThree.addEventListener('click', () => {
-  popup(0);
+  popup(3);
   popupContainer.style.display = 'block';
   const closePopup = document.querySelector('.material-symbols-outlined');
   closePopup.addEventListener('click', () => {
@@ -284,7 +278,7 @@ buttonThree.addEventListener('click', () => {
   });
 });
 buttonFour.addEventListener('click', () => {
-  popup(0);
+  popup(4);
   popupContainer.style.display = 'block';
   const closePopup = document.querySelector('.material-symbols-outlined');
   closePopup.addEventListener('click', () => {
@@ -292,7 +286,7 @@ buttonFour.addEventListener('click', () => {
   });
 });
 buttonFive.addEventListener('click', () => {
-  popup(0);
+  popup(5);
   popupContainer.style.display = 'block';
   const closePopup = document.querySelector('.material-symbols-outlined');
   closePopup.addEventListener('click', () => {
@@ -300,7 +294,7 @@ buttonFive.addEventListener('click', () => {
   });
 });
 buttonSix.addEventListener('click', () => {
-  popup(0);
+  popup(6);
   popupContainer.style.display = 'block';
   const closePopup = document.querySelector('.material-symbols-outlined');
   closePopup.addEventListener('click', () => {
