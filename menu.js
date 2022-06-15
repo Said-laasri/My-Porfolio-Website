@@ -45,7 +45,7 @@ const allProjects = [
       imageUrl: 'img/project0.svg',
       alt: 'project0',
     },
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
     Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
     projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
   },
@@ -141,20 +141,20 @@ projectCards.classList.add('project-grid');
 work.appendChild(projectCards);
 
 function addCards() {
-  for (let i = 0; i < 6; i += 1) {
+  for (let i = 1; i < 7; i += 1) {
     const projectCard = document.createElement('article');
     projectCard.classList.add('work', 'project');
-    if (i === 0) {
+    if (i === 1) {
       projectCard.setAttribute('id', 'project1');
-    } else if (i === 1) {
-      projectCard.setAttribute('id', 'project2');
     } else if (i === 2) {
-      projectCard.setAttribute('id', 'project3');
+      projectCard.setAttribute('id', 'project2');
     } else if (i === 3) {
-      projectCard.setAttribute('id', 'project4');
+      projectCard.setAttribute('id', 'project3');
     } else if (i === 4) {
-      projectCard.setAttribute('id', 'project5');
+      projectCard.setAttribute('id', 'project4');
     } else if (i === 5) {
+      projectCard.setAttribute('id', 'project5');
+    } else if (i === 6) {
       projectCard.setAttribute('id', 'project6');
     }
 
@@ -192,6 +192,7 @@ function popup(i) {
 
   const span = document.createElement('span');
   span.classList.add('material-symbols-outlined');
+  span.textContent = 'close';
   pupupSecondContainer.appendChild(span);
 
   const ul = document.createElement('ul');
@@ -266,7 +267,7 @@ const buttonSix = document.querySelector('#project6 .but');
 
 articleBtn.addEventListener('click', () => {
   popup(0);
-  popupContainer.style.display = 'block';
+  popupContainer.style.display = 'flex';
   const closePopup = document.querySelector('.material-symbols-outlined');
   closePopup.addEventListener('click', () => {
     popupContainer.style.display = 'none';
@@ -274,7 +275,7 @@ articleBtn.addEventListener('click', () => {
 });
 buttonOne.addEventListener('click', () => {
   popup(1);
-  popupContainer.style.display = 'block';
+  popupContainer.style.display = 'flex';
   const closePopup = document.querySelector('.material-symbols-outlined');
   closePopup.addEventListener('click', () => {
     popupContainer.style.display = 'none';
@@ -282,7 +283,7 @@ buttonOne.addEventListener('click', () => {
 });
 buttonTwo.addEventListener('click', () => {
   popup(2);
-  popupContainer.style.display = 'block';
+  popupContainer.style.display = 'flex';
   const closePopup = document.querySelector('.material-symbols-outlined');
   closePopup.addEventListener('click', () => {
     popupContainer.style.display = 'none';
@@ -290,7 +291,7 @@ buttonTwo.addEventListener('click', () => {
 });
 buttonThree.addEventListener('click', () => {
   popup(3);
-  popupContainer.style.display = 'block';
+  popupContainer.style.display = 'flex';
   const closePopup = document.querySelector('.material-symbols-outlined');
   closePopup.addEventListener('click', () => {
     popupContainer.style.display = 'none';
@@ -298,7 +299,7 @@ buttonThree.addEventListener('click', () => {
 });
 buttonFour.addEventListener('click', () => {
   popup(4);
-  popupContainer.style.display = 'block';
+  popupContainer.style.display = 'flex';
   const closePopup = document.querySelector('.material-symbols-outlined');
   closePopup.addEventListener('click', () => {
     popupContainer.style.display = 'none';
@@ -306,7 +307,7 @@ buttonFour.addEventListener('click', () => {
 });
 buttonFive.addEventListener('click', () => {
   popup(5);
-  popupContainer.style.display = 'block';
+  popupContainer.style.display = 'flex';
   const closePopup = document.querySelector('.material-symbols-outlined');
   closePopup.addEventListener('click', () => {
     popupContainer.style.display = 'none';
@@ -314,7 +315,7 @@ buttonFive.addEventListener('click', () => {
 });
 buttonSix.addEventListener('click', () => {
   popup(6);
-  popupContainer.style.display = 'block';
+  popupContainer.style.display = 'flex';
   const closePopup = document.querySelector('.material-symbols-outlined');
   closePopup.addEventListener('click', () => {
     popupContainer.style.display = 'none';
