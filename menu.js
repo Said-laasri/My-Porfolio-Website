@@ -144,6 +144,7 @@ function addCards() {
   for (let i = 1; i < 7; i += 1) {
     const projectCard = document.createElement('article');
     projectCard.classList.add('work', 'project');
+    // projectCard.setAttribute('id', `project${i}`);
     if (i === 1) {
       projectCard.setAttribute('id', 'project1');
     } else if (i === 2) {
