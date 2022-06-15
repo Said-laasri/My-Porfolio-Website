@@ -1235,6 +1235,7 @@ body {
     font-size: 16px;
     line-height: 30px;
     color: #344563;
+    text-align: start;
     position: absolute;
     right: 1%;
     margin-top: 12%;
