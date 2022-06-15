@@ -39,127 +39,97 @@ contactsection.addEventListener('click', () => {
 
 const allProjects = [
   {
-    name: '<h3>Multi-Post Stories</h3>',
-    close: `<span class="material-symbols-outlined">
-    close
-    </span>`,
-    technologies: `<ul class="tags">
-    <li class="css">css</li>
-    <li class="html">html</li>
-    <li class="boot">bootstrap</li>
-    <li class="ruby">Ruby</li>
-  </ul>`,
-    img: '<img src="img/project0.svg" alt="project0" >',
-    description: '<p> A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. </p>',
-    Link: '<button type="button" id="click3" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
-    projectRepo: '<button type="button" id="click2" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+    name: 'Multi-Post Stories',
+    technologies: ['Css', 'Html', 'booststrap', 'Ruby'],
+    img: {
+      imageUrl: 'img/project0.svg',
+      alt: 'project0',
+    },
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
+    projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
   },
   {
-    name: '<h3>Website Protfolio</h3>',
-    close: `<span class="material-symbols-outlined">
-    close
-    </span>`,
-    technologies: `<ul class="lang">
-    <li class="ht">html</li>
-    <li class="bo">bootstrap</li>
-    <li class="ru">Ruby</li>
-  </ul>`,
-    img: '<img src="img/Popupmobile.svg" alt="project">',
-    description: '<p>A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard</p>',
-    Link: '<button type="button" id="click3" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
-    projectRepo: '<button type="button" id="click2" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+    name: 'Website Protfolio',
+    technologies: ['Html', 'booststrap', 'Ruby'],
+    img: {
+      imageUrl: 'img/Popupmobile.svg',
+      alt: 'project',
+    },
+    description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
+    Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
+    projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
   },
   {
-    name: '<h3>Website Protfolio</h3>',
-    close: `<span class="material-symbols-outlined">
-    close
-    </span>`,
-    technologies: `<ul class="lang">
-    <li class="ht">html</li>
-    <li class="bo">bootstrap</li>
-    <li class="ru">Ruby</li>
-  </ul>`,
-    img: '<img src="img/Popupmobile.svg" alt="project">',
-    description: '<p>A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard</p>',
-    Link: '<button type="button" id="click3" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
-    projectRepo: '<button type="button" id="click2" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+    name: 'Website Protfolio',
+    technologies: ['Html', 'booststrap', 'Ruby'],
+    img: {
+      imageUrl: 'img/Popupmobile.svg',
+      alt: 'project',
+    },
+    description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
+    Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
+    projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
   },
   {
-    name: '<h3>Website Protfolio</h3>',
-    close: `<span class="material-symbols-outlined">
-    close
-    </span>`,
-    technologies: `<ul class="lang">
-    <li class="ht">html</li>
-    <li class="bo">bootstrap</li>
-    <li class="ru">Ruby</li>
-  </ul>`,
-    img: '<img src="img/Popupmobile.svg" alt="project">',
-    description: '<p>A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard</p>',
-    Link: '<button type="button" id="click3" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
-    projectRepo: '<button type="button" id="click2" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+    name: 'Website Protfolio',
+    technologies: ['Html', 'booststrap', 'Ruby'],
+    img: {
+      imageUrl: 'img/Popupmobile.svg',
+      alt: 'project',
+    },
+    description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
+    Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
+    projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
   },
   {
-    name: '<h3>Website Protfolio</h3>',
-    close: `<span class="material-symbols-outlined">
-    close
-    </span>`,
-    technologies: `<ul class="lang">
-    <li class="ht">html</li>
-    <li class="bo">bootstrap</li>
-    <li class="ru">Ruby</li>
-  </ul>`,
-    img: '<img src="img/Popupmobile.svg" alt="project">',
-    description: '<p>A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard</p>',
-    Link: '<button type="button" id="click3" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
-    projectRepo: '<button type="button" id="click2" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+    name: 'Website Protfolio',
+    technologies: ['Html', 'booststrap', 'Ruby'],
+    img: {
+      imageUrl: 'img/Popupmobile.svg',
+      alt: 'project',
+    },
+    description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
+    Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
+    projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
   },
   {
-    name: '<h3>Website Protfolio</h3>',
-    close: `<span class="material-symbols-outlined">
-    close
-    </span>`,
-    technologies: `<ul class="lang">
-    <li class="ht">html</li>
-    <li class="bo">bootstrap</li>
-    <li class="ru">Ruby</li>
-  </ul>`,
-    img: '<img src="img/Popupmobile.svg" alt="project">',
-    description: '<p>A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard</p>',
-    Link: '<button type="button" id="click3" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
-    projectRepo: '<button type="button" id="click2" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+    name: 'Website Protfolio',
+    technologies: ['Html', 'booststrap', 'Ruby'],
+    img: {
+      imageUrl: 'img/Popupmobile.svg',
+      alt: 'project',
+    },
+    description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
+    Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
+    projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
   },
   {
-    name: '<h3>Website Protfolio</h3>',
-    close: `<span class="material-symbols-outlined">
-    close
-    </span>`,
-    technologies: `<ul class="lang">
-    <li class="ht">html</li>
-    <li class="bo">bootstrap</li>
-    <li class="ru">Ruby</li>
-  </ul>`,
-    img: '<img src="img/Popupmobile.svg" alt="project">',
-    description: '<p>A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard</p>',
-    Link: '<button type="button" id="click3" class="click">See Live<img src="Desktopimg/populive.png" alt="live-demo"></button>',
-    projectRepo: '<button type="button" id="click2" class="click">See Source<img src="Desktopimg/popupsource.png" alt="live-demo"></button>',
+    name: 'Website Protfolio',
+    technologies: ['Html', 'booststrap', 'Ruby'],
+    img: {
+      imageUrl: 'img/Popupmobile.svg',
+      alt: 'project',
+    },
+    description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
+    Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
+    projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
   },
 ];
-
-// (***********************************)
+// ***************************************
 const work = document.querySelector('.work');
 const project0 = document.createElement('article');
 project0.classList.add('work', 'project0');
 
 project0.innerHTML = `<div class="info-project">
-<h3>Multi-Post Stories</h3>
-<p> A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text. </p>
+<h3>${allProjects[0].name}</h3>
+<p>${allProjects[0].description}</p>
 </div>
 <ul class="tags">
-<li class="css">css</li>
-<li class="html">html</li>
-<li class="boot">bootstrap</li>
-<li class="ruby">Ruby</li>
+<li class="css">${allProjects[0].technologies[0]}</li>
+<li class="html">${allProjects[0].technologies[1]}</li>
+<li class="boot">${allProjects[0].technologies[2]}</li>
+<li class="ruby">${allProjects[0].technologies[3]}</li>
 </ul>
 <button type="button" class="click">See Project</button>
 </article>`;
@@ -189,12 +159,12 @@ function addCards() {
     }
 
     projectCard.innerHTML = ` <div id="linfo1" class="linfo">
-    <h2>Profesional Art Printing Data</h2>
-    <p> A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard </p>
+    <h2>${allProjects[i].name}</h2>
+    <p>${allProjects[i].description}</p>
     <ul class="lang">
-      <li class="ht">html</li>
-      <li class="bo">bootstrap</li>
-      <li class="ru">Ruby</li>
+      <li class="ht">${allProjects[i].technologies[0]}</li>
+      <li class="bo">${allProjects[i].technologies[1]}</li>
+      <li class="ru">${allProjects[i].technologies[2]}</li>
     </ul>
   </div>
   <button type="button" class="but">See Project</button>`;
@@ -203,6 +173,7 @@ function addCards() {
   }
 }
 addCards();
+
 // ****************************************************************
 const body = document.querySelector('body');
 const popupContainer = document.createElement('div');
@@ -210,39 +181,79 @@ const pupupSecondContainer = document.createElement('div');
 
 function popup(i) {
   pupupSecondContainer.innerHTML = '';
-  if (i === 0) {
-    Object.values(allProjects[0]).forEach((item) => {
-      pupupSecondContainer.innerHTML += item;
-    });
-  } else if (i === 1) {
-    Object.values(allProjects[1]).forEach((item) => {
-      pupupSecondContainer.innerHTML += item;
-    });
-  } else if (i === 2) {
-    Object.values(allProjects[2]).forEach((item) => {
-      pupupSecondContainer.innerHTML += item;
-    });
-  } else if (i === 3) {
-    Object.values(allProjects[3]).forEach((item) => {
-      pupupSecondContainer.innerHTML += item;
-    });
-  } else if (i === 4) {
-    Object.values(allProjects[4]).forEach((item) => {
-      pupupSecondContainer.innerHTML += item;
-    });
-  } else if (i === 5) {
-    Object.values(allProjects[5]).forEach((item) => {
-      pupupSecondContainer.innerHTML += item;
-    });
-  } else if (i === 6) {
-    Object.values(allProjects[6]).forEach((item) => {
-      pupupSecondContainer.innerHTML += item;
-    });
-  }
   popupContainer.classList.add('popupcontainer');
   pupupSecondContainer.classList.add('popupSeconContainer');
   popupContainer.appendChild(pupupSecondContainer);
   body.appendChild(popupContainer);
+
+  const h3 = document.createElement('h3');
+  h3.classList.add('popup-title');
+  pupupSecondContainer.appendChild(h3);
+
+  const span = document.createElement('span');
+  span.classList.add('material-symbols-outlined');
+  pupupSecondContainer.appendChild(span);
+
+  const ul = document.createElement('ul');
+  ul.classList.add('tech');
+  pupupSecondContainer.appendChild(ul);
+
+  const imge = document.createElement('img');
+  imge.classList.add('popup-img');
+  pupupSecondContainer.appendChild(imge);
+
+  const par = document.createElement('p');
+  par.classList.add('popup-par');
+  pupupSecondContainer.appendChild(par);
+
+  const butLive = document.createElement('button');
+  butLive.classList.add('clickOne');
+  butLive.setAttribute('type', 'button');
+  pupupSecondContainer.appendChild(butLive);
+
+  const butSource = document.createElement('button');
+  butSource.classList.add('clickTwo');
+  butSource.setAttribute('type', 'button');
+  pupupSecondContainer.appendChild(butSource);
+
+  const live = document.createElement('a');
+  live.classList.add('popup-link');
+  live.textContent = 'See Live';
+  butLive.appendChild(live);
+
+  const source = document.createElement('a');
+  source.classList.add('popup-link');
+  source.textContent = 'See Source';
+  butSource.appendChild(source);
+
+  const iconLive = document.createElement('img');
+  iconLive.setAttribute('src', 'Desktopimg/populive.png');
+  iconLive.setAttribute('alt', 'button icon Live Demo');
+  butLive.appendChild(iconLive);
+
+  const iconSource = document.createElement('img');
+  iconSource.setAttribute('src', 'Desktopimg/popupsource.png');
+  butSource.setAttribute('alt', 'button Icon source');
+  butSource.appendChild(iconSource);
+
+  h3.textContent = allProjects[i].name;
+
+  Object.values(allProjects[i].technologies).forEach(
+    (x) => {
+      const li = document.createElement('li');
+      li.textContent = x;
+      ul.appendChild(li);
+    },
+  );
+
+  imge.setAttribute('src', `${allProjects[i].img.imageUrl}`);
+  imge.setAttribute('alt', `${allProjects[i].img.alt}`);
+
+  par.textContent = allProjects[i].description;
+
+  live.setAttribute('href', `${allProjects[i].Link}`);
+
+  source.setAttribute('href', `${allProjects[i].projectRepo}`);
 }
 
 const articleBtn = document.querySelector('.project0 .click');
