@@ -144,19 +144,20 @@ function addCards() {
   for (let i = 1; i < 7; i += 1) {
     const projectCard = document.createElement('article');
     projectCard.classList.add('work', 'project');
-    if (i === 1) {
-      projectCard.setAttribute('id', 'project1');
-    } else if (i === 2) {
-      projectCard.setAttribute('id', 'project2');
-    } else if (i === 3) {
-      projectCard.setAttribute('id', 'project3');
-    } else if (i === 4) {
-      projectCard.setAttribute('id', 'project4');
-    } else if (i === 5) {
-      projectCard.setAttribute('id', 'project5');
-    } else if (i === 6) {
-      projectCard.setAttribute('id', 'project6');
-    }
+    projectCard.setAttribute('id', `project${i}`);
+    // if (i === 1) {
+    //   projectCard.setAttribute('id', 'project1');
+    // } else if (i === 2) {
+    //   projectCard.setAttribute('id', 'project2');
+    // } else if (i === 3) {
+    //   projectCard.setAttribute('id', 'project3');
+    // } else if (i === 4) {
+    //   projectCard.setAttribute('id', 'project4');
+    // } else if (i === 5) {
+    //   projectCard.setAttribute('id', 'project5');
+    // } else if (i === 6) {
+    //   projectCard.setAttribute('id', 'project6');
+    // }
 
     projectCard.innerHTML = ` <div id="linfo1" class="linfo">
     <h2>${allProjects[i].name}</h2>
