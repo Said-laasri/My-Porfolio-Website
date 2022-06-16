@@ -19,18 +19,10 @@ function emailChecker() {
   } if (!emailValidation(email)) {
     message.textContent = 'Please Enter your email adress with lowerCase!!';
     return false;
-  }
-  else {
-    return true;
-  }
+  } return form.submit();
 }
 
 form.addEventListener('submit', (e) => {
-  
   e.preventDefault();
-
-  if (emailChecker()) {
-    form.submit();
-  }
-  else emailChecker();
+  emailChecker();
 });

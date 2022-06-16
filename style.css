@@ -988,11 +988,11 @@ body {
   width: max-content;
 }
 
-.forte, .error {
+.forte .error {
   border: 1px solid red;
 }
 
-.forte, .success {
+.forte .success {
   border: 1px solid lightgreen;
 }
 
@@ -1873,8 +1873,6 @@ body {
     bottom: -25px;
     left: -162px;
     color: rgb(236, 11, 11);
-    position: absolute;
     width: max-content;
-    padding-top: 100px;
   }
 }
