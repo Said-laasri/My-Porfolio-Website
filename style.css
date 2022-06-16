@@ -988,6 +988,14 @@ body {
   width: max-content;
 }
 
+.forte, .error {
+  border: 1px solid red;
+}
+
+.forte, .success {
+  border: 1px solid lightgreen;
+}
+
 /* **********dESKTOP VERSION********* */
 @media (min-width: 768px) {
   body {
