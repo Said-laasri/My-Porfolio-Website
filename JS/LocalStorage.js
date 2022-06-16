@@ -1,7 +1,6 @@
 const nome = document.getElementById('name');
 const emails = document.getElementById('email');
 const text = document.getElementById('text');
-
 function StoreData() {
   const dataObj = {
     fullname: nome.value,
@@ -21,6 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-nome.onchange = StoreData();
-emails.onchange = StoreData();
-text.onchange = StoreData();
+nome.onchange = StoreData;
+emails.onchange = StoreData;
+text.onchange = StoreData;
