@@ -1853,4 +1853,11 @@ body {
     right: 0;
     top: 20%;
   }
+
+  .error-message {
+    color: rgb(236, 11, 11);
+    position: absolute;
+    width: max-content;
+    padding-top: 100px;
+  }
 }
