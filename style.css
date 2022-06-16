@@ -983,6 +983,11 @@ body {
   margin-top: -5%;
 }
 
+.error-message {
+  color: rgb(236, 11, 11);
+  width: max-content;
+}
+
 /* **********dESKTOP VERSION********* */
 @media (min-width: 768px) {
   body {
@@ -1674,6 +1679,7 @@ body {
   }
 
   .form form {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 327px;
@@ -1855,6 +1861,9 @@ body {
   }
 
   .error-message {
+    position: absolute;
+    bottom: -25px;
+    left: -162px;
     color: rgb(236, 11, 11);
     position: absolute;
     width: max-content;

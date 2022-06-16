@@ -15,13 +15,18 @@ function emailChecker() {
 
   if (emailValues === '') {
     message.textContent = 'please add your email';
+    return false;
   } else if (!emailValidation(email)) {
     message.textContent = 'Please Enter your email adress with lowerCase!!';
-  } else {
-    message.textContent = 'Succes';
+    return false;
   }
+  else return true; 
 }
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   emailChecker();
+  if(emailChecker()){
+    form.submit();
+  }
 });
