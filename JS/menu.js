@@ -144,7 +144,7 @@ function addCards() {
   for (let i = 1; i < 7; i += 1) {
     const projectCard = document.createElement('article');
     projectCard.classList.add('work', 'project');
-    projectCard.setAttribute('id', `project${1}`);
+    projectCard.setAttribute('id', `project${i}`);
     // if (i === 1) {
     //   projectCard.setAttribute('id', 'project1');
     // } else if (i === 2) {
@@ -259,12 +259,12 @@ function popup(i) {
 }
 
 const articleBtn = document.querySelector('.project0 .click');
-const buttonOne = document.querySelector('#project1 .butt');
-const buttonTwo = document.querySelector('#project2 .butt');
-const buttonThree = document.querySelector('#project3 .butt');
-const buttonFour = document.querySelector('#project4 .butt');
-const buttonFive = document.querySelector('#project5 .butt');
-const buttonSix = document.querySelector('#project6 .butt');
+const buttonOne = document.querySelector('#project1 .but');
+const buttonTwo = document.querySelector('#project2 .but');
+const buttonThree = document.querySelector('#project3 .but');
+const buttonFour = document.querySelector('#project4 .but');
+const buttonFive = document.querySelector('#project5 .but');
+const buttonSix = document.querySelector('#project6 .but');
 
 articleBtn.addEventListener('click', () => {
   popup(0);
