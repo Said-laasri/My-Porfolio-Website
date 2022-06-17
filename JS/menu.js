@@ -53,7 +53,7 @@ const allProjects = [
     name: 'Website Protfolio',
     technologies: ['Html', 'booststrap', 'Ruby'],
     img: {
-      imageUrl: 'img/Popupmobile.svg',
+      imageUrl: 'img/project0.svg',
       alt: 'project',
     },
     description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
@@ -64,7 +64,7 @@ const allProjects = [
     name: 'Website Protfolio',
     technologies: ['Html', 'booststrap', 'Ruby'],
     img: {
-      imageUrl: 'img/Popupmobile.svg',
+      imageUrl: 'img/project0.svg',
       alt: 'project',
     },
     description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
@@ -75,7 +75,7 @@ const allProjects = [
     name: 'Website Protfolio',
     technologies: ['Html', 'booststrap', 'Ruby'],
     img: {
-      imageUrl: 'img/Popupmobile.svg',
+      imageUrl: 'img/project0.svg',
       alt: 'project',
     },
     description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
@@ -86,7 +86,7 @@ const allProjects = [
     name: 'Website Protfolio',
     technologies: ['Html', 'booststrap', 'Ruby'],
     img: {
-      imageUrl: 'img/Popupmobile.svg',
+      imageUrl: 'img/project0.svg',
       alt: 'project',
     },
     description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
@@ -97,7 +97,7 @@ const allProjects = [
     name: 'Website Protfolio',
     technologies: ['Html', 'booststrap', 'Ruby'],
     img: {
-      imageUrl: 'img/Popupmobile.svg',
+      imageUrl: 'img/project0.svg',
       alt: 'project',
     },
     description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
@@ -108,7 +108,7 @@ const allProjects = [
     name: 'Website Protfolio',
     technologies: ['Html', 'booststrap', 'Ruby'],
     img: {
-      imageUrl: 'img/Popupmobile.svg',
+      imageUrl: 'img/project0.svg',
       alt: 'project',
     },
     description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
