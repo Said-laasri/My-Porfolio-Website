@@ -39,13 +39,62 @@ contactsection.addEventListener('click', () => {
 
 const allProjects = [
   {
-    name: 'Multi-Post Stories',
-    technologies: ['Css', 'Html', 'booststrap', 'Ruby'],
+    name: 'Awsome-books',
+    technologies: ['Css', 'Html', 'Javascript'],
     img: {
-      imageUrl: 'img/project0.svg',
+      imageUrl: 'Desktopimg/awsome.png',
       alt: 'project0',
     },
-    description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
+    description:
+      'Awsome books website is a page that contains information about list of books with the title and author names',
+    Link: 'https://said-laasri.github.io/Awsome-Book/',
+    projectRepo: 'https://github.com/Said-laasri/Awsome-Book',
+  },
+  {
+    name: 'Tv-shows',
+    technologies: ['Html', 'JavaScript', 'Css'],
+    img: {
+      imageUrl: 'Desktopimg/tv-show.png',
+      alt: 'project',
+    },
+    description:
+      'Tv-shows website is a page that containes a list of cards of shows with detail about the shows',
+    Link: 'https://bespoke-kelpie-bb37b1.netlify.app/',
+    projectRepo: 'https://github.com/Said-laasri/Tv-show',
+  },
+  {
+    name: 'Logistic-conference',
+    technologies: ['Html', 'JavaScript', 'Css'],
+    img: {
+      imageUrl: 'Desktopimg/conference.png',
+      alt: 'project',
+    },
+    description:
+      'This project is example of Website for offering services to our clients',
+    Link: 'https://said-laasri.github.io/Capstone-Logistic-conference/',
+    projectRepo: 'https://github.com/Said-laasri/Capstone-Logistic-conference',
+  },
+  {
+    name: 'Leaderboard',
+    technologies: ['Html', 'JavaScript', 'Css'],
+    img: {
+      imageUrl: 'Desktopimg/leaderboeard.png',
+      alt: 'project',
+    },
+    description:
+      'Leaderboard website is a page that contains information that you already inputed names and scores of players.',
+    Link: 'https://incandescent-souffle-974b06.netlify.app/',
+    projectRepo: 'https://github.com/Said-laasri/Leaderboard',
+  },
+  {
+    name: 'Website Protfolio',
+    technologies: ['Html', 'booststrap', 'Ruby'],
+    img: {
+      imageUrl: 'img/project0.svg',
+      alt: 'project',
+    },
+    description:
+      'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
     Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
     projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
   },
@@ -56,7 +105,8 @@ const allProjects = [
       imageUrl: 'img/project0.svg',
       alt: 'project',
     },
-    description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
+    description:
+      'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
     Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
     projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
   },
@@ -67,51 +117,8 @@ const allProjects = [
       imageUrl: 'img/project0.svg',
       alt: 'project',
     },
-    description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
-    Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
-    projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
-  },
-  {
-    name: 'Website Protfolio',
-    technologies: ['Html', 'booststrap', 'Ruby'],
-    img: {
-      imageUrl: 'img/project0.svg',
-      alt: 'project',
-    },
-    description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
-    Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
-    projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
-  },
-  {
-    name: 'Website Protfolio',
-    technologies: ['Html', 'booststrap', 'Ruby'],
-    img: {
-      imageUrl: 'img/project0.svg',
-      alt: 'project',
-    },
-    description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
-    Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
-    projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
-  },
-  {
-    name: 'Website Protfolio',
-    technologies: ['Html', 'booststrap', 'Ruby'],
-    img: {
-      imageUrl: 'img/project0.svg',
-      alt: 'project',
-    },
-    description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
-    Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
-    projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
-  },
-  {
-    name: 'Website Protfolio',
-    technologies: ['Html', 'booststrap', 'Ruby'],
-    img: {
-      imageUrl: 'img/project0.svg',
-      alt: 'project',
-    },
-    description: 'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
+    description:
+      'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
     Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
     projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
   },
@@ -129,7 +136,6 @@ project0.innerHTML = `<div class="info-project">
 <li class="css">${allProjects[0].technologies[0]}</li>
 <li class="html">${allProjects[0].technologies[1]}</li>
 <li class="boot">${allProjects[0].technologies[2]}</li>
-<li class="ruby">${allProjects[0].technologies[3]}</li>
 </ul>
 <button type="button" class="click">See Project</button>
 </article>`;
@@ -145,20 +151,6 @@ function addCards() {
     const projectCard = document.createElement('article');
     projectCard.classList.add('work', 'project');
     projectCard.setAttribute('id', `project${i}`);
-    // if (i === 1) {
-    //   projectCard.setAttribute('id', 'project1');
-    // } else if (i === 2) {
-    //   projectCard.setAttribute('id', 'project2');
-    // } else if (i === 3) {
-    //   projectCard.setAttribute('id', 'project3');
-    // } else if (i === 4) {
-    //   projectCard.setAttribute('id', 'project4');
-    // } else if (i === 5) {
-    //   projectCard.setAttribute('id', 'project5');
-    // } else if (i === 6) {
-    //   projectCard.setAttribute('id', 'project6');
-    // }
-
     projectCard.innerHTML = ` <div id="linfo1" class="linfo">
     <h2>${allProjects[i].name}</h2>
     <p>${allProjects[i].description}</p>
@@ -240,13 +232,11 @@ function popup(i) {
 
   h3.textContent = allProjects[i].name;
 
-  Object.values(allProjects[i].technologies).forEach(
-    (x) => {
-      const li = document.createElement('li');
-      li.textContent = x;
-      ul.appendChild(li);
-    },
-  );
+  Object.values(allProjects[i].technologies).forEach((x) => {
+    const li = document.createElement('li');
+    li.textContent = x;
+    ul.appendChild(li);
+  });
 
   imge.setAttribute('src', `${allProjects[i].img.imageUrl}`);
   imge.setAttribute('alt', `${allProjects[i].img.alt}`);
