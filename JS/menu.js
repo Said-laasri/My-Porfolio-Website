@@ -66,7 +66,7 @@ const allProjects = [
     name: 'Logistic-conference',
     technologies: ['Html', 'JavaScript', 'Css'],
     img: {
-      imageUrl: 'Desktopimg/conference.png',
+      imageUrl: 'Desktopimg/confrence.png',
       alt: 'project',
     },
     description:
@@ -87,40 +87,39 @@ const allProjects = [
     projectRepo: 'https://github.com/Said-laasri/Leaderboard',
   },
   {
-    name: 'Website Protfolio',
-    technologies: ['Html', 'booststrap', 'Ruby'],
+    name: 'Animal-Zoo',
+    technologies: ['React', 'Redux', 'Scss'],
     img: {
-      imageUrl: 'img/project0.svg',
+      imageUrl: 'Desktopimg/animalzoo.png',
       alt: 'project',
     },
     description:
-      'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
-    Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
-    projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
+      'Animal Zoo is project where ifetch data from Animal API and siplay them with name and latin name and you can get more detail on animal',
+    Link: 'https://bright-torte-dc130d.netlify.app/',
+    projectRepo: 'https://github.com/Said-laasri/Animal-Zoo',
   },
   {
-    name: 'Website Protfolio',
-    technologies: ['Html', 'booststrap', 'Ruby'],
+    name: 'Space Hub',
+    technologies: ['React', 'Redux', 'Css'],
     img: {
       imageUrl: 'img/project0.svg',
       alt: 'project',
     },
     description:
-      'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
+      'space hub website is a page that contains information about all space missions and rocket used to travel in space . and also you can joing any mission and reserve any rocket availabale for the mission',
     Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
-    projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
+    projectRepo: 'https://github.com/Said-laasri/space-hub',
   },
   {
-    name: 'Website Protfolio',
-    technologies: ['Html', 'booststrap', 'Ruby'],
+    name: 'math magisians',
+    technologies: ['React', 'JavaScript', 'Css'],
     img: {
-      imageUrl: 'img/project0.svg',
+      imageUrl: 'Desktopimg/math.png',
       alt: 'project',
     },
-    description:
-      'A daily selection of privately personalized reads;no accounts or sign-ups required. has been the industrys standard',
-    Link: 'https://said-laasri.github.io/My-Porfolio-Website/',
-    projectRepo: 'https://github.com/Said-laasri/My-Porfolio-Website',
+    description: 'Calculator is apps that does calculon web browser',
+    Link: 'https://62f4ddf1408c40091ecbd8ef--gleeful-selkie-06c959.netlify.app/',
+    projectRepo: 'https://github.com/Said-laasri/math-magicians',
   },
 ];
 // ***************************************
