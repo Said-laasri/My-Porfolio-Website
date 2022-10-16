@@ -102,7 +102,7 @@ const allProjects = [
     name: 'Space Hub',
     technologies: ['React', 'Redux', 'Css'],
     img: {
-      imageUrl: 'img/project0.svg',
+      imageUrl: 'Desktopimg/space.png',
       alt: 'project',
     },
     description:

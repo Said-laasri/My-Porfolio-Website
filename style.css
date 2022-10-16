@@ -515,8 +515,7 @@ body {
       180.45deg,
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(img/projectimg.svg);
+    );
 }
 
 .linfo {
@@ -1038,6 +1037,12 @@ body {
   background-size: cover;
 }
 
+#project5 {
+  background-image: url(Desktopimg/space.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #project6 {
   background-image: url(Desktopimg/math.png);
   background-repeat: no-repeat;
@@ -1520,7 +1525,7 @@ body {
   #project5 {
     display: flex;
     justify-content: end;
-    background-image: url(Desktopimg/project2.svg);
+    background-image: url(Desktopimg/space.png);
     background-repeat: no-repeat;
   }
 
