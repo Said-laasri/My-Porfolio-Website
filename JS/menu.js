@@ -151,12 +151,9 @@ function addCards() {
     projectCard.classList.add('work', 'project');
     projectCard.setAttribute('id', `project${i}`);
     projectCard.innerHTML = ` <div id="linfo1" class="linfo">
-    <h2>${allProjects[i].name}</h2>
-    <p>${allProjects[i].description}</p>
+    <h2></h2>
+    <p></p>
     <ul class="lang">
-      <li class="ht">${allProjects[i].technologies[0]}</li>
-      <li class="bo">${allProjects[i].technologies[1]}</li>
-      <li class="ru">${allProjects[i].technologies[2]}</li>
     </ul>
   </div>
   <button type="button" class="but">See Project</button>`;
